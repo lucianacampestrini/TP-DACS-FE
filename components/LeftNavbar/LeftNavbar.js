@@ -30,7 +30,7 @@ function LeftNavbar() {
 							icon={faRocket}
 							style={{ width: "18px", cursor: "pointer" }}
 						/>{" "}
-						<a href="#">Paquetes</a>
+						<a href="../paquete">Paquetes</a>
 					</li>
 					<li>
 						<FontAwesomeIcon
