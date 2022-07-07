@@ -30,7 +30,7 @@ function ContentHotel() {
 				</div>
 				<div className={styles.tabs}>
 					<div className={styles.categories}>
-						<Link href="../tickets">
+						<Link href="../ticket">
 							<h2><a>Tickets</a></h2>
 						</Link>
 					</div>

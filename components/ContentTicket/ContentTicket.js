@@ -7,6 +7,7 @@ import museo2 from "../../public/images/museo2.jpg";
 import museo3 from "../../public/images/museo3.jpg";
 import parque from "../../public/images/parque.jpg";
 import museo4 from "../../public/images/museo4.jpg";
+import Link from 'next/link';
 import { Line } from "react-chartjs-2";
 import { Doughnut } from "react-chartjs-2";
 
@@ -20,17 +21,24 @@ function ContentPaquete() {
 			<div className={styles.contentwrapper}>
 				<div className={styles.tabs}>
 					<div className={styles.categories}>
-						<h2>Hotel</h2>
+					<Link href="../hotel">
+							<h2><a>Hotel</a></h2>
+						</Link>
 					</div>
 				</div>
 				<div className={styles.tabs}>
 					<div className={styles.categories}>
-						<h2>Aereo</h2>
+						<Link href="../aereo">
+							<h2><a>Aereo</a></h2>
+						</Link>
 					</div>
 				</div>
 				<div className={styles.tabs}>
 					<div className={styles.categories}>
-						<h2>Espectaculos</h2>
+						<Link href="../ticket">
+							<h2><a>Tickets</a></h2>
+						</Link>
+
 					</div>
 				</div>
 				<div className={styles.tabs}>
