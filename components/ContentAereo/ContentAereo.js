@@ -7,7 +7,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 
-function ContentHotel() {
+function ContentAereo() {
 	return (
 
 
@@ -23,7 +23,7 @@ function ContentHotel() {
 				</div>
 				<div className={styles.tabs}>
 					<div className={styles.categories}>
-						<Link href="../aereo">
+						<Link href="../index">
 							<h2><a>Aereo</a></h2>
 						</Link>
 					</div>
@@ -46,105 +46,62 @@ function ContentHotel() {
 				<div>
 					<div className='grid'>
 						<a className='card'>
-							<h3>Hotel Example</h3>
-							<p>Address: Av Libertador 9090</p>
-							<p>Estrellas: 4</p>
-							<p>Disponible: si</p>
-							<Image src={image1}
-								alt="Picture of the author"
-								width={200}
-								height={200} />
-							
-
-
-
+							<h3>BOEIGN 377</h3>
+							<p>Destino: Qatar</p>
+							<p>Salida: 21/11/22 </p>
+								<p>Precio: $1000</p>
+								<p>Disponibles: 30</p>
 						</a>
-
-
-					</div>
-					<div className='grid'>
-						<a className='card'>
-							<h3>Hotel Example</h3>
-							<p>Address: Av Libertador 9090</p>
-							<p>Estrellas: 4</p>
-							<p>Disponible: si</p>
-							<Image src={image1}
-								alt="Picture of the author"
-								width={200}
-								height={200} />
-
-
-						</a>
-
-
 					</div>
 
 					<div className='grid'>
 						<a className='card'>
-							<h3>Hotel Example</h3>
-							<p>Address: Av Libertador 9090</p>
-							<p>Estrellas: 4</p>
-							<p>Disponible: si</p>
-							<Image src={image1}
-								alt="Picture of the author"
-								width={200}
-								height={200} />
-
-
+							<h3>BOEIGN 377</h3>
+							<p>Destino: Qatar</p>
+							<p>Salida: 21/11/22 </p>
+							<p>Precio: $1000</p>
+							<p>Disponibles: 30</p>
 						</a>
-
-
 					</div>
 
 					<div className='grid'>
 						<a className='card'>
-							<h3>Hotel Example</h3>
-							<p>Address: Av Libertador 9090</p>
-							<p>Estrellas: 4</p>
-							<p>Disponible: si</p>
-							<Image src={image1}
-								alt="Picture of the author"
-								width={200}
-								height={200} />
-
-
+							<h3>BOEIGN 377</h3>
+							<p>Destino: Qatar</p>
+							<p>Salida: 21/11/22 </p>
+							<p>Precio: $1000</p>
+							<p>Disponibles: 30</p>
 						</a>
-
-
 					</div>
 
 					<div className='grid'>
 						<a className='card'>
-							<h3>Hotel Example</h3>
-							<p>Address: Av Libertador 9090</p>
-							<p>Estrellas: 4</p>
-							<p>Disponible: si</p>
-							<Image src={image1}
-								alt="Picture of the author"
-								width={200}
-								height={200} />
-
-
+							<h3>BOEIGN 377</h3>
+							<p>Destino: Qatar</p>
+							<p>Salida: 21/11/22 </p>
+							<p>Precio: $1000</p>
+							<p>Disponibles: 30</p>
 						</a>
-
-
 					</div>
 
 					<div className='grid'>
 						<a className='card'>
-							<h3>Hotel Example</h3>
-							<p>Address: Av Libertador 9090</p>
-							<p>Estrellas: 4</p>
-							<p>Disponible: si</p>
-							<Image src={image1}
-								alt="Picture of the author"
-								width={200}
-								height={200} />
-
-
+							<h3>BOEIGN 377</h3>
+							<p>Destino: Qatar</p>
+							<p>Salida: 21/11/22 </p>
+							<p>Precio: $1000</p>
+							<p>Disponibles: 30</p>
 						</a>
+					</div>
 
-
+					<div className='grid'>
+						<a className='card'>
+							<h3>BOEIGN 377</h3>
+							<p>Destino: Qatar</p>
+							<p>Salida: 21/11/22 </p>
+							<p>Precio: $1000</p>
+							<p>Disponibles: 30</p>
+						</a>
 					</div>
 
 				</div>
@@ -156,7 +113,7 @@ function ContentHotel() {
           justify-content: left;
           flex-wrap: nowrap;
           width: 300px;
-			heigth: 300 px;
+			heigth: 150 px;
           margin-top: 3rem;
         }
         .card {
@@ -169,6 +126,8 @@ function ContentHotel() {
           text-decoration: none;
           border: 1px solid #eaeaea;
           border-radius: 10px;
+			width: 300px;
+			heigth: 150 px;
           transition: color 0.15s ease, border-color 0.15s ease;
         }
         .card:hover,
@@ -198,9 +157,4 @@ function ContentHotel() {
 	);
 }
 
-export default ContentHotel;
-
-
-
-
-
+export default ContentAereo;

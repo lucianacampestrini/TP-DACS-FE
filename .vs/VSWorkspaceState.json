@@ -1,10 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\images",
+    "\\components",
+    "\\components\\ContentAereo",
+    "\\components\\ContentHotel",
+    "\\components\\ContentPaquete",
+    "\\components\\Header",
     "\\pages",
-    "\\pages\\api"
+    "\\pages\\api",
+    "\\public",
+    "\\public\\images"
   ],
-  "SelectedNode": "\\pages\\paquete.js",
+  "SelectedNode": "\\components\\ContentAereo\\ContentAereo.js",
   "PreviewInSolutionExplorer": false
 }
